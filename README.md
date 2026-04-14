@@ -1,10 +1,10 @@
-# 🌧️ Rain Predictor
+#  Rain Predictor
 
 An Android application that predicts weather conditions based on user-input parameters such as temperature, humidity, rainfall, wind speed, and pressure using rule-based logic.
 
 ---
 
-## 📱 Overview
+##  Overview
 
 Rain Predictor is a mobile application designed to analyze weather-related inputs and provide predictions about possible weather conditions. The app uses predefined validation rules and logical conditions to determine outcomes based on user-provided data.
 
@@ -12,7 +12,7 @@ This project demonstrates real-time input validation and decision-making logic i
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Weather prediction based on multiple input parameters  
 - Input validation with defined ranges  
@@ -22,7 +22,7 @@ This project demonstrates real-time input validation and decision-making logic i
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - Kotlin  
 - Android SDK  
@@ -31,7 +31,7 @@ This project demonstrates real-time input validation and decision-making logic i
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 1. User enters weather parameters:
    - Minimum Temperature  
@@ -48,7 +48,7 @@ This project demonstrates real-time input validation and decision-making logic i
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 <p align="center">
   <img src="rp_1.jpeg" width="180"/>
@@ -59,7 +59,7 @@ This project demonstrates real-time input validation and decision-making logic i
 
 ---
 
-## 📌 Input Ranges
+##  Input Ranges
 
 | Parameter       | Range            |
 |----------------|------------------|
@@ -72,7 +72,7 @@ This project demonstrates real-time input validation and decision-making logic i
 
 ---
 
-## 🎯 Purpose
+##  Purpose
 
 This project demonstrates:
 - Data validation techniques in Android  
@@ -82,7 +82,7 @@ This project demonstrates:
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 1. Clone the repository  
 2. Open in Android Studio  
@@ -91,7 +91,7 @@ This project demonstrates:
 
 ---
 
-## 📌 Future Improvements
+##  Future Improvements
 
 - Machine Learning-based prediction  
 - API integration for real weather data  
@@ -101,7 +101,7 @@ This project demonstrates:
 
 ---
 
-## 💡 Learning Outcome
+##  Learning Outcome
 
 - Input validation in Android  
 - Working with multiple parameters  
@@ -110,7 +110,7 @@ This project demonstrates:
 
 ---
 
-## 👩‍💻 Developer
+##  Developer
 
 Azka Shahid  
 GitHub: https://github.com/AzkaShahid
