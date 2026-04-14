@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.main.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/light_blue"
+     >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rain Predictor"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginStart="@dimen/margin_10"
+            android:textSize="@dimen/font_30"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+
+
+            android:padding="@dimen/margin_20">
+
+            <EditText
+                android:id="@+id/editMinTemp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="MinTemp (°C)"
+                android:textSize="@dimen/font_16"
+                android:padding="@dimen/margin_10"
+                android:background="@drawable/ic_edit_text_bg"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/editMaxTemp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_15"
+                android:hint="MaxTemp (°C)"
+                android:textSize="@dimen/font_16"
+
+                android:padding="@dimen/margin_10"
+                android:background="@drawable/ic_edit_text_bg"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/editRainfall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_15"
+                android:hint="Rainfall (mm)"
+                android:textSize="@dimen/font_16"
+
+                android:inputType="numberDecimal"
+                android:padding="@dimen/margin_10"
+                android:background="@drawable/ic_edit_text_bg" />
+
+            <EditText
+                android:id="@+id/editWindGust"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_15"
+                android:hint="WindGust (km/h)"
+                android:textSize="@dimen/font_16"
+
+                android:padding="@dimen/margin_10"
+                android:background="@drawable/ic_edit_text_bg"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/editHumidity3pm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_16"
+
+                android:layout_marginTop="@dimen/margin_15"
+                android:padding="@dimen/margin_10"
+                android:background="@drawable/ic_edit_text_bg"
+                android:hint="Humidity 3PM (%)"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/editPressure9am"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_15"
+                android:hint="Pressure 9AM (hPa)"
+                android:textSize="@dimen/font_16"
+
+                android:inputType="numberDecimal"
+                android:padding="@dimen/margin_10"
+                android:background="@drawable/ic_edit_text_bg"/>
+
+            <Button
+                android:id="@+id/btnPredict"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="@dimen/margin_15"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/brown"
+
+                android:text="Predict Rain" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
